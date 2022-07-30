@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores em Moedas</title>
+    <style>
+        body {background-color:black; font: normal 20pt Arial;}
+        h1 {color: rgb(42, 199, 107); font: normal pt 20pt Arial;}
+        h2 { color: rgb(202, 68, 151); font: normal 20pt Arial;}
+        h3 {color: rgb(245, 9, 9); font: normal 20pt Arial;}
+        p {color: rgb(252, 248, 4);}
+    </style>
+</head>
+<body>
+    <h1> Esja bem vindo ao meu site.</h1>
+    <p>Aqui, como você pode ver, ao digitar um valor "X" em Real,
+     te darei ele em Dollar e em Euro.<br/>
+Use com sabedoria!!! <br/>Z.N!!!</p>
+<h2> Espero ter ajudado!</h2>
+<p> To back forever small grasshopper!!!<br/> xD </p>
+<script>
+    window.alert('Feito para converter valores R$ p/ US$/€')
+    var n = Number(window.prompt('Olá servidor, digite o valor desejado em real...'))
+    window.confirm(`Esse é o valor desejado? ${n}`)
+    window.alert(`O valor em reais é, ${n.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})}`)
+    var dollar = n*(5.39) //saindo da xinelaje kkkkk
+    Number(window.alert(`Em Dollar: ${dollar.toLocaleString('pt-BR', {style: 'currency', currency:'USD'})}`))
+    var euro = n*(5.51)
+    window.alert(` Em Euro: ${euro.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})}`)
+    document.write.querySelector('euro')
+
+
+</script>
+    
+</body>
+</html>
